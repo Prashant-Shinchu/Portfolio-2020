@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <script>document.getElementsByTagName("html")[0].className += " js";</script>
+        <link id="codyframe" rel="stylesheet" href="./codyhouse-framework-master/main/assets/css/style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./node_modules/sal.js/dist/sal.css">
+        <!-- UIkit CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.3/dist/css/uikit.min.css" />
+        <link rel="stylesheet" href="./hint.css-2.6.0/hint.css">
+        <link rel="stylesheet" href="./imagehover.css-master/css/imagehover.min.css">
+    </head>
+    <body>
+       
+        <nav>
+
+            <div class="nav-center">
+                <!--nav-header-->
+                <div class="nav-header">
+                    <div class="logo" uk-tooltip="title:start-up logo; pos:bottom">
+                        <h5 id="home" style="color:#6246ea;font-size:20px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36"><path fill="none" d="M0 0h24v24H0z"/><path d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm1 2v14h16V5H4zm8 10h6v2h-6v-2zm-3.333-3L5.838 9.172l1.415-1.415L11.495 12l-4.242 4.243-1.415-1.415L8.667 12z" fill="rgba(98,70,234,1)"/></svg>
+                        STARTUPS</h5>
+                    </div>
+                    <button class="nav-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 3v2H3V3h9zm4 16v2H3v-2h13zm6-8v2H3v-2h19z" fill="rgba(228,88,88,1)"/></svg>
+                    </button>
+                </div>
+                    <!-- links -->
+            <ul class="links">
+                <li>
+                <a href="index.html" style="text-decoration: none;">articles</a>
+                </li>
+                <li>
+                <a href="about.html" style="text-decoration: none;">about</a>
+                </li>
+                <li>
+                <a href="projects.html" style="text-decoration: none;">projects</a>
+                </li>
+                <li>
+                <a href="contact.html" style="text-decoration: none;">contact</a>
+                </li>
+            </ul>
+            <!-- social media -->
+            <ul class="social-icons">
+                <li>
+                <a href="#" uk-tooltip="title:follow on facebook; pos:bottom">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32"><path fill="none" d="M0 0h24v24H0z"/><path d="M13 9h4.5l-.5 2h-4v9h-2v-9H7V9h4V7.128c0-1.783.186-2.43.534-3.082a3.635 3.635 0 0 1 1.512-1.512C13.698 2.186 14.345 2 16.128 2c.522 0 .98.05 1.372.15V4h-1.372c-1.324 0-1.727.078-2.138.298-.304.162-.53.388-.692.692-.22.411-.298.814-.298 2.138V9z" fill="rgba(228,88,88,1)"/></svg>
+                </a>
+                </li>
+                <li>
+                <a href="#" uk-tooltip="title:follow on twitter; pos:bottom">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32"><path fill="none" d="M0 0h24v24H0z"/><path d="M15.3 5.55a2.9 2.9 0 0 0-2.9 2.847l-.028 1.575a.6.6 0 0 1-.68.583l-1.561-.212c-2.054-.28-4.022-1.226-5.91-2.799-.598 3.31.57 5.603 3.383 7.372l1.747 1.098a.6.6 0 0 1 .034.993L7.793 18.17c.947.059 1.846.017 2.592-.131 4.718-.942 7.855-4.492 7.855-10.348 0-.478-1.012-2.141-2.94-2.141zm-4.9 2.81a4.9 4.9 0 0 1 8.385-3.355c.711-.005 1.316.175 2.669-.645-.335 1.64-.5 2.352-1.214 3.331 0 7.642-4.697 11.358-9.463 12.309-3.268.652-8.02-.419-9.382-1.841.694-.054 3.514-.357 5.144-1.55C5.16 15.7-.329 12.47 3.278 3.786c1.693 1.977 3.41 3.323 5.15 4.037 1.158.475 1.442.465 1.973.538z" fill="rgba(228,88,88,1)"/></svg>
+                </a>
+                </li>
+                <li>
+                <a href="#" uk-tooltip="title:follow on behance; pos:bottom">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32"><path fill="none" d="M0 0h24v24H0z"/><path d="M7.5 11a2 2 0 1 0 0-4H3v4h4.5zm1 2H3v4h5.5a2 2 0 1 0 0-4zm2.063-1.428A4 4 0 0 1 8.5 19H1V5h6.5a4 4 0 0 1 3.063 6.572zM15.5 6H21v1.5h-5.5V6zm7.5 8.5h-7.5v.25A2.75 2.75 0 0 0 20.7 16h2.134a4.752 4.752 0 0 1-9.334-1.25v-1.5a4.75 4.75 0 1 1 9.5 0v1.25zm-2.104-2a2.751 2.751 0 0 0-5.292 0h5.292z" fill="rgba(228,88,88,1)"/></svg>
+                </a>
+                </li>
+                <li>
+                <a href="#" uk-tooltip="title:follow on linked-in; pos:bottom">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 9.55C12.917 8.613 14.111 8 15.5 8a5.5 5.5 0 0 1 5.5 5.5V21h-2v-7.5a3.5 3.5 0 0 0-7 0V21h-2V8.5h2v1.05zM5 6.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm-1 2h2V21H4V8.5z" fill="rgba(228,88,88,1)"/></svg>
+                </a>
+                </li>
+                <li>
+                <a href="#" uk-tooltip="title:follow on reddit; pos:bottom">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32"><path fill="none" d="M0 0h24v24H0z"/><path d="M11.102 7.815l.751-3.536a2 2 0 0 1 2.373-1.54l3.196.68a2 2 0 1 1-.416 1.956l-3.196-.68-.666 3.135c1.784.137 3.557.73 5.163 1.7a3.192 3.192 0 0 1 4.741 2.673v.021a3.192 3.192 0 0 1-1.207 2.55 2.855 2.855 0 0 1-.008.123c0 3.998-4.45 7.03-9.799 7.03-5.332 0-9.708-3.024-9.705-6.953a5.31 5.31 0 0 1-.01-.181 3.192 3.192 0 0 1 3.454-5.35 11.446 11.446 0 0 1 5.329-1.628zm9.286 5.526c.408-.203.664-.62.661-1.075a1.192 1.192 0 0 0-2.016-.806l-.585.56-.67-.455c-1.615-1.098-3.452-1.725-5.23-1.764h-1.006c-1.875.029-3.651.6-5.237 1.675l-.663.45-.584-.55a1.192 1.192 0 1 0-1.314 1.952l.633.29-.054.695c-.013.17-.013.339.003.584 0 2.71 3.356 5.03 7.708 5.03 4.371 0 7.799-2.336 7.802-5.106a3.31 3.31 0 0 0 0-.508l-.052-.672.604-.3zM7 13.5a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0zm7 0a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0zm-1.984 5.103c-1.397 0-2.767-.37-3.882-1.21a.424.424 0 0 1 .597-.597c.945.693 2.123.99 3.269.99s2.33-.275 3.284-.959a.439.439 0 0 1 .732.206.469.469 0 0 1-.119.423c-.684.797-2.484 1.147-3.881 1.147z" fill="rgba(228,88,88,1)"/></svg>
+                </a>
+                </li>
+            </ul>
+            </div>
+
+        </nav>
+
+        <!-------------------landing-page---------------------------->
+        <section class="landing-page py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="heading-area py-4">
+                            <h1 data-sal-duration="1200" data-sal="zoom-in" data-sal-delay="300" data-sal-easing="ease-out-bounce"><span style="color: #6246ea;">typ</span>ography & high <span style="color: #6246ea;">con</span>trast <span style="color: #6246ea;">des</span>igns</h1>
+                        </div>
+                        <div class="flex flex-wrap items-center gap-sm">
+                            <a href="#0" class="btn btn--primary">Explore</a>
+                            <a href="#0" class="color-inherit">Learn more <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z" fill="rgba(98,70,234,1)"/></svg></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="img-container" data-sal-duration="1200" data-sal="slide-left" data-sal-delay="300" data-sal-easing="ease-out-bounce">
+                            <img src="./designer__monochromatic.svg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!------------designs-------------------->
+        <section class="designs py-5">
+            <div class="container text-center">
+                <div class="section-heading">
+                    <h1 data-sal-duration="1200" data-sal="zoom-up" data-sal-delay="300" data-sal-easing="ease-out-bounce">my recent <span style="color: #6246ea;">designs</span></h1>
+                    <div class="underline mt-3"></div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="card-v2 radius-md" data-sal-duration="1200" data-sal="slide-right" data-sal-delay="300" data-sal-easing="ease-out-bounce">
+                            <figure>
+                              <img src="./open.png" alt="Image description">
+                              <figcaption class="card-v2__caption padding-x-sm padding-top-md padding-bottom-sm text-center">
+                                <div class="text-md text-base@md" style="font-weight: 600;color:#2b2c34;">
+                                    StartUp Poster
+                                </div>
+                                <div class="margin-top-xxxs text-sm opacity-70%">
+                                    <a uk-tooltip="title:Download this poster; pos:top" href="#" style="text-decoration: none;font-size:20px;color:#6246ea;font-weight:600">
+                                        Download<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32"><path fill="none" d="M0 0h24v24H0z"/><path d="M18.364 15.536L16.95 14.12l1.414-1.414a5 5 0 1 0-7.071-7.071L9.879 7.05 8.464 5.636 9.88 4.222a7 7 0 0 1 9.9 9.9l-1.415 1.414zm-2.828 2.828l-1.415 1.414a7 7 0 0 1-9.9-9.9l1.415-1.414L7.05 9.88l-1.414 1.414a5 5 0 1 0 7.071 7.071l1.414-1.414 1.415 1.414zm-.708-10.607l1.415 1.415-7.071 7.07-1.415-1.414 7.071-7.07z" fill="rgba(98,70,234,1)"/></svg>
+                                    </a>
+                                </div>
+                              </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card-v2 radius-md" data-sal-duration="1200" data-sal="slide-in" data-sal-delay="300" data-sal-easing="ease-out-bounce">
+                            <figure>
+                              <img src="./start-up.png" alt="Image description">
+                              <figcaption class="card-v2__caption padding-x-sm padding-top-md padding-bottom-sm text-center">
+                                <div class="text-md text-base@md" style="font-weight: 600;color:#2b2c34;">
+                                    Minimal Design
+                                </div>
+                                <div class="margin-top-xxxs text-sm opacity-70%">
+                                    <a uk-tooltip="title:Download this poster; pos:top" href="#" style="text-decoration: none;font-size:20px;color:#6246ea;font-weight:600">
+                                        Download<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32"><path fill="none" d="M0 0h24v24H0z"/><path d="M18.364 15.536L16.95 14.12l1.414-1.414a5 5 0 1 0-7.071-7.071L9.879 7.05 8.464 5.636 9.88 4.222a7 7 0 0 1 9.9 9.9l-1.415 1.414zm-2.828 2.828l-1.415 1.414a7 7 0 0 1-9.9-9.9l1.415-1.414L7.05 9.88l-1.414 1.414a5 5 0 1 0 7.071 7.071l1.414-1.414 1.415 1.414zm-.708-10.607l1.415 1.415-7.071 7.07-1.415-1.414 7.071-7.07z" fill="rgba(98,70,234,1)"/></svg>
+                                    </a>
+                                </div>
+                              </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card-v2 radius-md" data-sal-duration="1200" data-sal="slide-left" data-sal-delay="300" data-sal-easing="ease-out-bounce">
+                            <figure>
+                              <img src="./ultraviolet.png" alt="Image description">
+                              <figcaption class="card-v2__caption padding-x-sm padding-top-md padding-bottom-sm text-center">
+                                <div class="text-md text-base@md" style="font-weight: 600;color:#2b2c34;">
+                                    Visual Contrast
+                                </div>
+                                <div class="margin-top-xxxs text-sm opacity-70%">
+                                    <a uk-tooltip="title:Download this poster; pos:top" href="#" style="text-decoration: none;font-size:20px;color:#6246ea;font-weight:600">
+                                        Download<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32"><path fill="none" d="M0 0h24v24H0z"/><path d="M18.364 15.536L16.95 14.12l1.414-1.414a5 5 0 1 0-7.071-7.071L9.879 7.05 8.464 5.636 9.88 4.222a7 7 0 0 1 9.9 9.9l-1.415 1.414zm-2.828 2.828l-1.415 1.414a7 7 0 0 1-9.9-9.9l1.415-1.414L7.05 9.88l-1.414 1.414a5 5 0 1 0 7.071 7.071l1.414-1.414 1.415 1.414zm-.708-10.607l1.415 1.415-7.071 7.07-1.415-1.414 7.071-7.07z" fill="rgba(98,70,234,1)"/></svg>
+                                    </a>
+                                </div>
+                              </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-----------------------posters------------------------->
+        
+        <div class="bg-image py-5">
+            <section class="bg radius-md overflow-hidden padding-component text-center">
+                <div class="grid gap-md items-center">
+                  <div class="col-6@md">
+                    <div class="text-component text-center" data-sal-duration="1200" data-sal="zoom-in" data-sal-delay="300" data-sal-easing="ease-out-bounce">
+                      <h2>Posters & Compositions</h2>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                
+                    <div class="margin-top-sm">
+                      <div class="flex flex-wrap gap-sm flex-center" data-sal-duration="1200" data-sal="fade-in" data-sal-delay="500" data-sal-easing="ease-out-bounce">
+                        <a href="#0" class="btn btn--primary">Explore</a>
+                        <a href="#0" class="btn btn--secondary">Download</a>
+                      </div>
+                    </div>
+                  </div>
+                
+                  <div class="col-6@md">
+                    <figure class="width-100%">
+                      <img class="block width-100%" src="./posters.svg" alt="Placeholder">
+                    </figure>
+                  </div>
+                </div>
+            </section>
+        </div>
+
+        <!----------------------------product designs------------------>
+        <section class="products py-5">
+            <div class="container text-center">
+                <div class="card text-white">
+                    <img src="./products.png" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title" data-sal-duration="1200" data-sal="zoom-in" data-sal-delay="500" data-sal-easing="ease-out-bounce">Illustration <span style="color: #6246ea;">art</span></h5>
+                      <p class="card-text">
+                        An illustration is a decoration, interpretation or visual explanation of a text, concept or 
+                        process, designed for integration in published media, such as posters, flyers, magazines, books, 
+                        teaching materials, animations, video games and films. An illustration is typically created by an 
+                        illustrator.
+                      </p>
+                      <p class="card-text">Last updated 3 mins ago</p>
+
+                      <div class="row py-5">
+                          <div class="col-lg-6">
+                              <div class="title" data-sal-duration="1200" data-sal="slide-right" data-sal-delay="500" data-sal-easing="ease-out-bounce">
+                                  <h1>Illustrations <span style="color: #6246ea;">describe</span> emotions</h1>
+                              </div>
+                          </div>
+                          <div class="col-lg-6">
+                            <div class="card" style="width: 25rem;" data-sal-duration="1200" data-sal="slide-left" data-sal-delay="500" data-sal-easing="ease-out-bounce">
+                                <div class="responsive-iframe">
+                                    <iframe src="https://player.vimeo.com/video/308876956?title=0&byline=0&portrait=0&badge=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                                </div>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!---------------------new-designs----------------->
+        <section class="new-design py-5">
+            <div class="container text-center">
+                <div class="new-heading">
+                    <h1>Visit new minimalistic designs</h1>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="uk-animation-toggle" tabindex="0">
+                            <div class="uk-card uk-card-default uk-card-body uk-animation-slide-left-small">
+                                <p class="uk-text-center">
+                                    <img src="./mask.png" alt="">
+                                    <figcaption>
+                                        Lexicon & Critique
+                                        <div class="link-icon mt-3">
+                                            <a href="#" uk-tooltip="title:For more info; pos:top"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32"><path fill="none" d="M0 0h24v24H0z"/><path d="M10 6v2H5v11h11v-5h2v6a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h6zm11-3v8h-2V6.413l-7.793 7.794-1.414-1.414L17.585 5H13V3h8z" fill="rgba(98,70,234,1)"/></svg></a>
+                                        </div>
+                                    </figcaption>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="uk-animation-toggle" tabindex="0">
+                            <div class="uk-card uk-card-default uk-card-body uk-animation-fade">
+                                <p class="uk-text-center">
+                                    <img src="./summer.png" alt="">
+                                    <figcaption>
+                                        Lexicon & Critique
+                                        <div class="link-icon mt-3">
+                                            <a href="#" uk-tooltip="title:For more info; pos:top"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32"><path fill="none" d="M0 0h24v24H0z"/><path d="M10 6v2H5v11h11v-5h2v6a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h6zm11-3v8h-2V6.413l-7.793 7.794-1.414-1.414L17.585 5H13V3h8z" fill="rgba(98,70,234,1)"/></svg></a>
+                                        </div>
+                                    </figcaption>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="uk-animation-toggle" tabindex="0">
+                            <div class="uk-card uk-card-default uk-card-body uk-animation-slide-right-small">
+                                <p class="uk-text-center">
+                                    <img src="./education.png" alt="">
+                                    <figcaption>
+                                        Lexicon & Critique
+                                        <div class="link-icon mt-3">
+                                            <a href="#" uk-tooltip="title:For more info; pos:top"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32"><path fill="none" d="M0 0h24v24H0z"/><path d="M10 6v2H5v11h11v-5h2v6a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h6zm11-3v8h-2V6.413l-7.793 7.794-1.414-1.414L17.585 5H13V3h8z" fill="rgba(98,70,234,1)"/></svg></a>
+                                        </div>
+                                    </figcaption>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-----------------------about------------------------->
+        <section id="about-me" class="py-5">
+            <div class="container">
+                <div class="description text-center">
+                    <h1 data-sal-duration="1200" data-sal="zoom-in" data-sal-delay="500" data-sal-easing="ease-out-bounce">about my work</h1>
+                </div>
+                <div class="list-details">
+                    <div class="uk-margin-small uk-card uk-card-default uk-card-body">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32"><path fill="none" d="M0 0h24v24H0z"/><path d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z" fill="rgba(43,44,52,1)"/></svg>
+                        I design posters & unique layout everyday with passion. I love finding new techniques & ideas about designs & turning them into approach.
+                    </div>
+                    <div class="uk-margin-small uk-card uk-card-default uk-card-body">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32"><path fill="none" d="M0 0h24v24H0z"/><path d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z" fill="rgba(43,44,52,1)"/></svg>
+                        I watch design & developement related videos on youtube all day long & learn something new everyday & try to apply them.
+                    </div>
+                    <div class="uk-margin-small uk-card uk-card-default uk-card-body">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32"><path fill="none" d="M0 0h24v24H0z"/><path d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z" fill="rgba(43,44,52,1)"/></svg>
+                        Illustrations are my favorite piece of graphic design & I use them in my every UI & web design projects in many different ways.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-------------------visual------------------->
+        <section class="visual py-5">
+            <div class="container text-center">
+                <div class="cards-uk">
+                    <div class="uk-child-width-1-3@m" uk-grid uk-scrollspy="cls: uk-animation-fade; target: .uk-card; delay: 500; repeat: true">
+                        <div>
+                            <div class="uk-card uk-card-default uk-card-body">
+                                <h3 class="uk-card-title">Visual</h3>
+                                <p>Which part of the design is visually highlighted more & making its impact.</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="uk-card uk-card-default uk-card-body" uk-scrollspy-class="uk-animation-fade">
+                                <h3 class="uk-card-title">Compositions</h3>
+                                <p>In this case the design has many structures composed within same amount of space.</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="uk-card uk-card-default uk-card-body">
+                                <h3 class="uk-card-title">Critique</h3>
+                                <p>How well you can define you design without any fuzzy details & complications.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-child-width-1-3@m" uk-grid uk-scrollspy="cls: uk-animation-fade; target: .uk-card; delay: 500; repeat: true">
+                        <div>
+                            <div class="uk-card uk-card-default uk-card-body">
+                                <h3 class="uk-card-title">Negative space</h3>
+                                <p>Negative space makes a huge impact on your designs so be careful when you are using it.</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="uk-card uk-card-default uk-card-body" uk-scrollspy-class="uk-animation-fade">
+                                <h3 class="uk-card-title">Colors</h3>
+                                <p>Choosing which type of color is going to attract audience vision is bit hard to figure.</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="uk-card uk-card-default uk-card-body">
+                                <h3 class="uk-card-title">Stacked</h3>
+                                <p>Designs that are arranged one after another makes you think to understand meanings.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-------------------contact---------------------->
+        <section class="contact py-5">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="description">
+                            <h1>Want to collaborate?</h1>
+                            <h5>contact me via...</h5>
+                        </div>
+                        <section class="">
+                            <div class="container max-width-md">
+                            
+                              <ul class="sharebar flex flex-wrap gap-xs justify-center">
+                                <li>
+                                  <a class="sharebar__btn js-social-share" uk-tooltip="title:Contact on Twitter; pos:top" data-social="twitter" data-text="Hi there! https://codyhouse.co via @CodyWebHouse" data-hashtags="#nuggets, #dev" href="https://twitter.com/intent/tweet">
+                                    <svg class="icon" viewBox="0 0 32 32"><g><path d="M32,6.1c-1.2,0.5-2.4,0.9-3.8,1c1.4-0.8,2.4-2.1,2.9-3.6c-1.3,0.8-2.7,1.3-4.2,1.6C25.7,3.8,24,3,22.2,3 c-3.6,0-6.6,2.9-6.6,6.6c0,0.5,0.1,1,0.2,1.5C10.3,10.8,5.5,8.2,2.2,4.2c-0.6,1-0.9,2.1-0.9,3.3c0,2.3,1.2,4.3,2.9,5.5 c-1.1,0-2.1-0.3-3-0.8c0,0,0,0.1,0,0.1c0,3.2,2.3,5.8,5.3,6.4c-0.6,0.1-1.1,0.2-1.7,0.2c-0.4,0-0.8,0-1.2-0.1 c0.8,2.6,3.3,4.5,6.1,4.6c-2.2,1.8-5.1,2.8-8.2,2.8c-0.5,0-1.1,0-1.6-0.1C2.9,27.9,6.4,29,10.1,29c12.1,0,18.7-10,18.7-18.7 c0-0.3,0-0.6,0-0.8C30,8.5,31.1,7.4,32,6.1z"></path></g></svg>
+                                  </a>
+                                </li>
+                              
+                                <li>
+                                  <a class="sharebar__btn js-social-share" uk-tooltip="title:Contact on Facebook; pos:top" data-social="facebook" data-url="https://codyhouse.co" href="http://www.facebook.com/sharer.php">
+                                    <svg class="icon" viewBox="0 0 32 32"><path d="M32,16A16,16,0,1,0,13.5,31.806V20.625H9.438V16H13.5V12.475c0-4.01,2.389-6.225,6.043-6.225a24.644,24.644,0,0,1,3.582.312V10.5H21.107A2.312,2.312,0,0,0,18.5,13v3h4.438l-.71,4.625H18.5V31.806A16,16,0,0,0,32,16Z"></path></svg>
+                                  </a>
+                                </li>
+                              
+                                <li>
+                                  <a class="sharebar__btn js-social-share" uk-tooltip="title:Contact on Piterest; pos:top" data-social="pinterest" data-description="Description for my Pinterest share" data-media="https://codyhouse.co/app/assets/img/social-sharing-img-1.jpg" data-url="https://codyhouse.co" href="http://pinterest.com/pin/create/button">
+                                    <svg class="icon" viewBox="0 0 32 32"><g><path d="M16,0C7.2,0,0,7.2,0,16c0,6.8,4.2,12.6,10.2,14.9c-0.1-1.3-0.3-3.2,0.1-4.6c0.3-1.2,1.9-8,1.9-8 s-0.5-1-0.5-2.4c0-2.2,1.3-3.9,2.9-3.9c1.4,0,2,1,2,2.3c0,1.4-0.9,3.4-1.3,5.3c-0.4,1.6,0.8,2.9,2.4,2.9c2.8,0,5-3,5-7.3 c0-3.8-2.8-6.5-6.7-6.5c-4.6,0-7.2,3.4-7.2,6.9c0,1.4,0.5,2.8,1.2,3.7c0.1,0.2,0.1,0.3,0.1,0.5c-0.1,0.5-0.4,1.6-0.4,1.8 C9.5,21.9,9.3,22,9,21.8c-2-0.9-3.2-3.9-3.2-6.2c0-5,3.7-9.7,10.6-9.7c5.6,0,9.9,4,9.9,9.2c0,5.5-3.5,10-8.3,10 c-1.6,0-3.1-0.8-3.7-1.8c0,0-0.8,3.1-1,3.8c-0.4,1.4-1.3,3.1-2,4.2c1.5,0.5,3.1,0.7,4.7,0.7c8.8,0,16-7.2,16-16C32,7.2,24.8,0,16,0z "></path></g></svg>
+                                  </a>
+                                </li>
+                              
+                                <li>
+                                  <a class="sharebar__btn js-social-share" uk-tooltip="title:Contact on LinkedIn; pos:top" data-social="linkedin" data-url="http://codyhouse.co" href="https://www.linkedin.com/shareArticle">
+                                    <svg class="icon" viewBox="0 0 32 32"><g><path d="M29,1H3A2,2,0,0,0,1,3V29a2,2,0,0,0,2,2H29a2,2,0,0,0,2-2V3A2,2,0,0,0,29,1ZM9.887,26.594H5.374V12.25H9.887ZM7.63,10.281a2.625,2.625,0,1,1,2.633-2.625A2.624,2.624,0,0,1,7.63,10.281ZM26.621,26.594H22.2V19.656c0-1.687,0-3.75-2.35-3.75s-2.633,1.782-2.633,3.656v7.126H12.8V12.25h4.136v1.969h.094a4.7,4.7,0,0,1,4.231-2.344c4.513,0,5.359,3,5.359,6.844Z"></path></g></svg>
+                                  </a>
+                                </li>
+                              
+                                <li>
+                                  <a class="sharebar__btn js-social-share" uk-tooltip="title:Contact on Email; pos:top" data-social="mail" data-subject="Email Subject" data-body="Content of my email." href="mailto:">
+                                    <svg class="icon" viewBox="0 0 32 32"><g><path d="M28,3H4A3.957,3.957,0,0,0,0,7V25a3.957,3.957,0,0,0,4,4H28a3.957,3.957,0,0,0,4-4V7A3.957,3.957,0,0,0,28,3Zm.6,6.8-12,9a1,1,0,0,1-1.2,0l-12-9A1,1,0,0,1,4.6,8.2L16,16.75,27.4,8.2a1,1,0,1,1,1.2,1.6Z"></path></g></svg>
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="img-section" data-sal-duration="1200" data-sal="slide-left" data-sal-delay="500" data-sal-easing="ease-out-bounce">
+                            <img src="./team_work_monochromatic.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-----------------------author--------------------->
+        <section class="author-detail py-5">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="profile-detail">
+                            <section>
+                                <div class="container max-width-adaptive-sm">
+                                  <div class="author author--featured">
+                                    <a href="#0" class="author__img-wrapper">
+                                      <img src="./lucas-sankey-bXq8pVfP-fY-unsplash.jpg" alt="Author picture">
+                                    </a>
+                                  
+                                    <div class="author__content text-component">
+                                      <h2>Hi! I'm <a href="#" style="text-decoration: none;color: #094067;font-weight:700">Shinchu Pandey</a></h2>
+                                      <p>Graphics Designer & UI/UX Designer.</p>
+                                    </div>
+                              
+                                  </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="detail">
+                            <p>
+                                I have been working for 6 years as a graphic designer & web designer & I have worked with the following companies...
+                            </p>
+                            <div>
+                                <div class="container max-width-lg">
+                              
+                                  <div class="margin-top-lg">
+                                    <ul class="customer-logos flex flex-wrap gap-lg flex-center" data-sal-duration="1200" data-sal="slide-left" data-sal-delay="500" data-sal-easing="ease-out-bounce">
+                                      <li>
+                                        <svg class="customer-logos__logo" width="124" height="32" viewBox="0 0 124 32"><title>CompanyX</title><path d="M17,27A11,11,0,0,1,17,5V0a16,16,0,0,0,0,32Z"/><circle cx="17" cy="16" r="7"/><path d="M37.67,10.8a5.017,5.017,0,0,1,1.57.94L38.08,13.3a4.047,4.047,0,0,0-1.02-.59,3.087,3.087,0,0,0-1.1-.189q-2.381,0-2.38,3.619a4.411,4.411,0,0,0,.62,2.65,2.086,2.086,0,0,0,1.76.81,2.773,2.773,0,0,0,1.05-.19,4.773,4.773,0,0,0,1.05-.63l1.18,1.68a5.267,5.267,0,0,1-3.42,1.22,5.054,5.054,0,0,1-2.64-.67A4.4,4.4,0,0,1,31.46,19.1a6.643,6.643,0,0,1-.6-2.921,6.973,6.973,0,0,1,.6-2.97,4.613,4.613,0,0,1,1.72-2,4.792,4.792,0,0,1,2.62-.71A5.5,5.5,0,0,1,37.67,10.8Z"/><path d="M48.87,11.985a5.984,5.984,0,0,1,1.311,4.09,6.786,6.786,0,0,1-.6,2.93,4.548,4.548,0,0,1-1.72,1.97,4.922,4.922,0,0,1-2.66.7,4.635,4.635,0,0,1-3.66-1.49,5.981,5.981,0,0,1-1.319-4.11,6.721,6.721,0,0,1,.6-2.92,4.551,4.551,0,0,1,1.731-1.96,4.969,4.969,0,0,1,2.67-.7A4.6,4.6,0,0,1,48.87,11.985Zm-5.95,4.09a5.259,5.259,0,0,0,.57,2.771,2.082,2.082,0,0,0,3.42-.011,5.263,5.263,0,0,0,.57-2.76,5.208,5.208,0,0,0-.57-2.75,1.877,1.877,0,0,0-1.689-.889Q42.92,12.436,42.92,16.075Z"/><path d="M65.84,11.365a3.447,3.447,0,0,1,.76,2.35v7.66H64.04v-7.26q0-1.7-1.16-1.7a1.577,1.577,0,0,0-1.07.391,4.826,4.826,0,0,0-.93,1.21v7.359H58.32v-7.26q0-1.7-1.16-1.7a1.6,1.6,0,0,0-1.09.391,4.849,4.849,0,0,0-.93,1.21v7.359H52.58V10.8H54.8l.2,1.38a3.626,3.626,0,0,1,3.06-1.68,2.739,2.739,0,0,1,1.59.46,2.679,2.679,0,0,1,.99,1.32,4.534,4.534,0,0,1,1.381-1.33A3.43,3.43,0,0,1,63.8,10.5,2.573,2.573,0,0,1,65.84,11.365Z"/><path d="M78.01,11.955a7.377,7.377,0,0,1,.97,4.1,8.056,8.056,0,0,1-.49,2.909,4.417,4.417,0,0,1-1.44,1.99,3.617,3.617,0,0,1-2.25.72,3.3,3.3,0,0,1-2.66-1.16v4.94l-2.56.28V10.8h2.24l.14,1.3a3.928,3.928,0,0,1,1.41-1.2,3.687,3.687,0,0,1,1.651-.4A3.34,3.34,0,0,1,78.01,11.955Zm-1.71,4.12a5.735,5.735,0,0,0-.51-2.809,1.668,1.668,0,0,0-1.53-.851,1.983,1.983,0,0,0-1.17.391,3.445,3.445,0,0,0-.95,1.049v4.76a2.245,2.245,0,0,0,1.94,1.1Q76.3,19.715,76.3,16.075Z"/><path d="M89.51,19.485a1.215,1.215,0,0,0,.61.45l-.54,1.7a3.354,3.354,0,0,1-1.47-.43,2.181,2.181,0,0,1-.87-1.11,3.386,3.386,0,0,1-1.35,1.19,4.12,4.12,0,0,1-1.81.39,3.419,3.419,0,0,1-2.5-.9,3.154,3.154,0,0,1-.92-2.36,3.054,3.054,0,0,1,1.25-2.63,6,6,0,0,1,3.569-.91H86.8v-.6a1.821,1.821,0,0,0-.47-1.429,2.268,2.268,0,0,0-1.51-.41,8.93,8.93,0,0,0-2.8.559l-.6-1.74a10.7,10.7,0,0,1,3.84-.76q4.06,0,4.06,3.64v4.44A1.7,1.7,0,0,0,89.51,19.485Zm-2.71-.969V16.375H85.74q-2.479,0-2.48,1.84a1.7,1.7,0,0,0,.38,1.18,1.435,1.435,0,0,0,1.12.42A2.264,2.264,0,0,0,86.8,18.516Z"/><path d="M100.27,11.346a3.344,3.344,0,0,1,.79,2.369v7.66H98.5v-7.26a2.032,2.032,0,0,0-.33-1.32,1.217,1.217,0,0,0-.97-.38,1.9,1.9,0,0,0-1.19.41,4.681,4.681,0,0,0-1.031,1.191v7.359H92.42V10.8h2.22l.2,1.4a3.954,3.954,0,0,1,3.22-1.7A2.864,2.864,0,0,1,100.27,11.346Z"/><path d="M107.02,24.465a6.171,6.171,0,0,1-3.56,1.27l-.26-1.86a6.391,6.391,0,0,0,1.67-.45,2.712,2.712,0,0,0,1.01-.77,5.188,5.188,0,0,0,.7-1.28h-.88L102.34,10.8h2.72l2.3,8.88,2.4-8.88H112.4l-3.439,10.62A6.492,6.492,0,0,1,107.02,24.465Z"/><path d="M120.74,21.375l-2.761-5.66-2.739,5.66h-2.82l4-7.359-3.68-6.46h2.94l2.34,4.779,2.44-4.779h2.82l-3.7,6.359,4.1,7.46Z"/></svg>
+                                      </li>
+                                
+                                      <li>
+                                        <svg class="customer-logos__logo" width="40" height="40" viewBox="0 0 40 40"><title>CompanyY</title><path d="M32,4H8A4,4,0,0,0,4,8V32a4,4,0,0,0,4,4H32a4,4,0,0,0,4-4V8A4,4,0,0,0,32,4ZM29,29H11V11h6V23H29Zm0-12H23V11h6Z"/></svg>
+                                      </li>
+                                
+                                      <li>
+                                        <svg class="customer-logos__logo" width="124" height="32" viewBox="0 0 124 32"><title>CompanyX</title><path d="M17,27A11,11,0,0,1,17,5V0a16,16,0,0,0,0,32Z"/><circle cx="17" cy="16" r="7"/><path d="M37.67,10.8a5.017,5.017,0,0,1,1.57.94L38.08,13.3a4.047,4.047,0,0,0-1.02-.59,3.087,3.087,0,0,0-1.1-.189q-2.381,0-2.38,3.619a4.411,4.411,0,0,0,.62,2.65,2.086,2.086,0,0,0,1.76.81,2.773,2.773,0,0,0,1.05-.19,4.773,4.773,0,0,0,1.05-.63l1.18,1.68a5.267,5.267,0,0,1-3.42,1.22,5.054,5.054,0,0,1-2.64-.67A4.4,4.4,0,0,1,31.46,19.1a6.643,6.643,0,0,1-.6-2.921,6.973,6.973,0,0,1,.6-2.97,4.613,4.613,0,0,1,1.72-2,4.792,4.792,0,0,1,2.62-.71A5.5,5.5,0,0,1,37.67,10.8Z"/><path d="M48.87,11.985a5.984,5.984,0,0,1,1.311,4.09,6.786,6.786,0,0,1-.6,2.93,4.548,4.548,0,0,1-1.72,1.97,4.922,4.922,0,0,1-2.66.7,4.635,4.635,0,0,1-3.66-1.49,5.981,5.981,0,0,1-1.319-4.11,6.721,6.721,0,0,1,.6-2.92,4.551,4.551,0,0,1,1.731-1.96,4.969,4.969,0,0,1,2.67-.7A4.6,4.6,0,0,1,48.87,11.985Zm-5.95,4.09a5.259,5.259,0,0,0,.57,2.771,2.082,2.082,0,0,0,3.42-.011,5.263,5.263,0,0,0,.57-2.76,5.208,5.208,0,0,0-.57-2.75,1.877,1.877,0,0,0-1.689-.889Q42.92,12.436,42.92,16.075Z"/><path d="M65.84,11.365a3.447,3.447,0,0,1,.76,2.35v7.66H64.04v-7.26q0-1.7-1.16-1.7a1.577,1.577,0,0,0-1.07.391,4.826,4.826,0,0,0-.93,1.21v7.359H58.32v-7.26q0-1.7-1.16-1.7a1.6,1.6,0,0,0-1.09.391,4.849,4.849,0,0,0-.93,1.21v7.359H52.58V10.8H54.8l.2,1.38a3.626,3.626,0,0,1,3.06-1.68,2.739,2.739,0,0,1,1.59.46,2.679,2.679,0,0,1,.99,1.32,4.534,4.534,0,0,1,1.381-1.33A3.43,3.43,0,0,1,63.8,10.5,2.573,2.573,0,0,1,65.84,11.365Z"/><path d="M78.01,11.955a7.377,7.377,0,0,1,.97,4.1,8.056,8.056,0,0,1-.49,2.909,4.417,4.417,0,0,1-1.44,1.99,3.617,3.617,0,0,1-2.25.72,3.3,3.3,0,0,1-2.66-1.16v4.94l-2.56.28V10.8h2.24l.14,1.3a3.928,3.928,0,0,1,1.41-1.2,3.687,3.687,0,0,1,1.651-.4A3.34,3.34,0,0,1,78.01,11.955Zm-1.71,4.12a5.735,5.735,0,0,0-.51-2.809,1.668,1.668,0,0,0-1.53-.851,1.983,1.983,0,0,0-1.17.391,3.445,3.445,0,0,0-.95,1.049v4.76a2.245,2.245,0,0,0,1.94,1.1Q76.3,19.715,76.3,16.075Z"/><path d="M89.51,19.485a1.215,1.215,0,0,0,.61.45l-.54,1.7a3.354,3.354,0,0,1-1.47-.43,2.181,2.181,0,0,1-.87-1.11,3.386,3.386,0,0,1-1.35,1.19,4.12,4.12,0,0,1-1.81.39,3.419,3.419,0,0,1-2.5-.9,3.154,3.154,0,0,1-.92-2.36,3.054,3.054,0,0,1,1.25-2.63,6,6,0,0,1,3.569-.91H86.8v-.6a1.821,1.821,0,0,0-.47-1.429,2.268,2.268,0,0,0-1.51-.41,8.93,8.93,0,0,0-2.8.559l-.6-1.74a10.7,10.7,0,0,1,3.84-.76q4.06,0,4.06,3.64v4.44A1.7,1.7,0,0,0,89.51,19.485Zm-2.71-.969V16.375H85.74q-2.479,0-2.48,1.84a1.7,1.7,0,0,0,.38,1.18,1.435,1.435,0,0,0,1.12.42A2.264,2.264,0,0,0,86.8,18.516Z"/><path d="M100.27,11.346a3.344,3.344,0,0,1,.79,2.369v7.66H98.5v-7.26a2.032,2.032,0,0,0-.33-1.32,1.217,1.217,0,0,0-.97-.38,1.9,1.9,0,0,0-1.19.41,4.681,4.681,0,0,0-1.031,1.191v7.359H92.42V10.8h2.22l.2,1.4a3.954,3.954,0,0,1,3.22-1.7A2.864,2.864,0,0,1,100.27,11.346Z"/><path d="M107.02,24.465a6.171,6.171,0,0,1-3.56,1.27l-.26-1.86a6.391,6.391,0,0,0,1.67-.45,2.712,2.712,0,0,0,1.01-.77,5.188,5.188,0,0,0,.7-1.28h-.88L102.34,10.8h2.72l2.3,8.88,2.4-8.88H112.4l-3.439,10.62A6.492,6.492,0,0,1,107.02,24.465Z"/><path d="M120.74,21.375l-2.761-5.66-2.739,5.66h-2.82l4-7.359-3.68-6.46h2.94l2.34,4.779,2.44-4.779h2.82l-3.7,6.359,4.1,7.46Z"/></svg>
+                                      </li>
+                                
+                                      <li>
+                                        <svg class="customer-logos__logo" width="40" height="40" viewBox="0 0 40 40"><title>CompanyY</title><path d="M32,4H8A4,4,0,0,0,4,8V32a4,4,0,0,0,4,4H32a4,4,0,0,0,4-4V8A4,4,0,0,0,32,4ZM29,29H11V11h6V23H29Zm0-12H23V11h6Z"/></svg>
+                                      </li>
+                                
+                                      <li>
+                                        <svg class="customer-logos__logo" width="124" height="32" viewBox="0 0 124 32"><title>CompanyX</title><path d="M17,27A11,11,0,0,1,17,5V0a16,16,0,0,0,0,32Z"/><circle cx="17" cy="16" r="7"/><path d="M37.67,10.8a5.017,5.017,0,0,1,1.57.94L38.08,13.3a4.047,4.047,0,0,0-1.02-.59,3.087,3.087,0,0,0-1.1-.189q-2.381,0-2.38,3.619a4.411,4.411,0,0,0,.62,2.65,2.086,2.086,0,0,0,1.76.81,2.773,2.773,0,0,0,1.05-.19,4.773,4.773,0,0,0,1.05-.63l1.18,1.68a5.267,5.267,0,0,1-3.42,1.22,5.054,5.054,0,0,1-2.64-.67A4.4,4.4,0,0,1,31.46,19.1a6.643,6.643,0,0,1-.6-2.921,6.973,6.973,0,0,1,.6-2.97,4.613,4.613,0,0,1,1.72-2,4.792,4.792,0,0,1,2.62-.71A5.5,5.5,0,0,1,37.67,10.8Z"/><path d="M48.87,11.985a5.984,5.984,0,0,1,1.311,4.09,6.786,6.786,0,0,1-.6,2.93,4.548,4.548,0,0,1-1.72,1.97,4.922,4.922,0,0,1-2.66.7,4.635,4.635,0,0,1-3.66-1.49,5.981,5.981,0,0,1-1.319-4.11,6.721,6.721,0,0,1,.6-2.92,4.551,4.551,0,0,1,1.731-1.96,4.969,4.969,0,0,1,2.67-.7A4.6,4.6,0,0,1,48.87,11.985Zm-5.95,4.09a5.259,5.259,0,0,0,.57,2.771,2.082,2.082,0,0,0,3.42-.011,5.263,5.263,0,0,0,.57-2.76,5.208,5.208,0,0,0-.57-2.75,1.877,1.877,0,0,0-1.689-.889Q42.92,12.436,42.92,16.075Z"/><path d="M65.84,11.365a3.447,3.447,0,0,1,.76,2.35v7.66H64.04v-7.26q0-1.7-1.16-1.7a1.577,1.577,0,0,0-1.07.391,4.826,4.826,0,0,0-.93,1.21v7.359H58.32v-7.26q0-1.7-1.16-1.7a1.6,1.6,0,0,0-1.09.391,4.849,4.849,0,0,0-.93,1.21v7.359H52.58V10.8H54.8l.2,1.38a3.626,3.626,0,0,1,3.06-1.68,2.739,2.739,0,0,1,1.59.46,2.679,2.679,0,0,1,.99,1.32,4.534,4.534,0,0,1,1.381-1.33A3.43,3.43,0,0,1,63.8,10.5,2.573,2.573,0,0,1,65.84,11.365Z"/><path d="M78.01,11.955a7.377,7.377,0,0,1,.97,4.1,8.056,8.056,0,0,1-.49,2.909,4.417,4.417,0,0,1-1.44,1.99,3.617,3.617,0,0,1-2.25.72,3.3,3.3,0,0,1-2.66-1.16v4.94l-2.56.28V10.8h2.24l.14,1.3a3.928,3.928,0,0,1,1.41-1.2,3.687,3.687,0,0,1,1.651-.4A3.34,3.34,0,0,1,78.01,11.955Zm-1.71,4.12a5.735,5.735,0,0,0-.51-2.809,1.668,1.668,0,0,0-1.53-.851,1.983,1.983,0,0,0-1.17.391,3.445,3.445,0,0,0-.95,1.049v4.76a2.245,2.245,0,0,0,1.94,1.1Q76.3,19.715,76.3,16.075Z"/><path d="M89.51,19.485a1.215,1.215,0,0,0,.61.45l-.54,1.7a3.354,3.354,0,0,1-1.47-.43,2.181,2.181,0,0,1-.87-1.11,3.386,3.386,0,0,1-1.35,1.19,4.12,4.12,0,0,1-1.81.39,3.419,3.419,0,0,1-2.5-.9,3.154,3.154,0,0,1-.92-2.36,3.054,3.054,0,0,1,1.25-2.63,6,6,0,0,1,3.569-.91H86.8v-.6a1.821,1.821,0,0,0-.47-1.429,2.268,2.268,0,0,0-1.51-.41,8.93,8.93,0,0,0-2.8.559l-.6-1.74a10.7,10.7,0,0,1,3.84-.76q4.06,0,4.06,3.64v4.44A1.7,1.7,0,0,0,89.51,19.485Zm-2.71-.969V16.375H85.74q-2.479,0-2.48,1.84a1.7,1.7,0,0,0,.38,1.18,1.435,1.435,0,0,0,1.12.42A2.264,2.264,0,0,0,86.8,18.516Z"/><path d="M100.27,11.346a3.344,3.344,0,0,1,.79,2.369v7.66H98.5v-7.26a2.032,2.032,0,0,0-.33-1.32,1.217,1.217,0,0,0-.97-.38,1.9,1.9,0,0,0-1.19.41,4.681,4.681,0,0,0-1.031,1.191v7.359H92.42V10.8h2.22l.2,1.4a3.954,3.954,0,0,1,3.22-1.7A2.864,2.864,0,0,1,100.27,11.346Z"/><path d="M107.02,24.465a6.171,6.171,0,0,1-3.56,1.27l-.26-1.86a6.391,6.391,0,0,0,1.67-.45,2.712,2.712,0,0,0,1.01-.77,5.188,5.188,0,0,0,.7-1.28h-.88L102.34,10.8h2.72l2.3,8.88,2.4-8.88H112.4l-3.439,10.62A6.492,6.492,0,0,1,107.02,24.465Z"/><path d="M120.74,21.375l-2.761-5.66-2.739,5.66h-2.82l4-7.359-3.68-6.46h2.94l2.34,4.779,2.44-4.779h2.82l-3.7,6.359,4.1,7.46Z"/></svg>
+                                      </li>
+                                
+                                      <li>
+                                        <svg class="customer-logos__logo" width="40" height="40" viewBox="0 0 40 40"><title>CompanyY</title><path d="M32,4H8A4,4,0,0,0,4,8V32a4,4,0,0,0,4,4H32a4,4,0,0,0,4-4V8A4,4,0,0,0,32,4ZM29,29H11V11h6V23H29Zm0-12H23V11h6Z"/></svg>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-------------------slider--------------------->
+        <section class="slide-show py-5">
+            <div class="container text-center">
+                <div class="slider-container">
+                    <div class="slide">
+                      <img src="./alchemy.gif" class="slide-img" alt="" />
+                      <h1 style="color:#094067">Illustration Gallary</h1>
+                    </div>
+                    <div class="slide">
+                      <h1>Contains the real <span style="color: #3da9fc;">information</span> with deep meanings.</h1>
+                    </div>
+                    <div class="slide">
+                        <img src="./Mataura.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="./Hinterrhein.png" alt="">
+                    </div>
+                    <div class="slide">
+                      <div>
+                        <img src="./Coffee-2.png" class="person-img" alt="" />
+                        <h4>shinchu's energy drink</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="btn-container">
+                    <button type="button" class="prevBtn">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 2c5.52 0 10 4.48 10 10s-4.48 10-10 10S2 17.52 2 12 6.48 2 12 2zm0 9V8l-4 4 4 4v-3h4v-2h-4z" fill="rgba(144,180,206,1)"/></svg>
+                    </button>
+                    <button type="button" class="nextBtn">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 2c5.52 0 10 4.48 10 10s-4.48 10-10 10S2 17.52 2 12 6.48 2 12 2zm0 9H8v2h4v3l4-4-4-4v3z" fill="rgba(144,180,206,1)"/></svg>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!------------------------footer----------------->
+        <section class="footer py-5" style="background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="footer-heading">
+                            <h2>Featured Links</h2>
+                        </div>
+                        <div class="link-list">
+                            <ul>
+                                <li>
+                                    <a uk-tooltip="title:See all Designs; pos:left" href="#" class="footer-link" style="color: #222;font-weight:500;">Designs</a>
+                                </li>
+                                <li>
+                                    <a uk-tooltip="title:See all Backgrounds; pos:right" href="#" class="footer-link" style="color: #222;font-weight:500;">Backgrounds</a>
+                                </li>
+                                <li>
+                                    <a uk-tooltip="title:See all Posters; pos:left" href="#" class="footer-link" style="color: #222;font-weight:500;">Posters</a>
+                                </li>
+                                <li>
+                                    <a uk-tooltip="title:Draw Wireframes; pos:right" href="#" class="footer-link" style="color: #222;font-weight:500;">Wireframes</a>
+                                </li>
+                                <li>
+                                    <a uk-tooltip="title:See all Illustrations; pos:left" href="#" class="footer-link" style="color: #222;font-weight:500;">Illustrations</a>
+                                </li>
+                                <li>
+                                    <a uk-tooltip="title:Draw Vectors; pos:right" href="#" class="footer-link" style="color: #222;font-weight:500;">Vectors</a>
+                                </li>
+                                <li>
+                                    <a uk-tooltip="title:See all Typography; pos:left" href="#" class="footer-link" style="color: #222;font-weight:500;">Typography</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="footer-heading">
+                            <h2>Featured Block</h2>
+                        </div>
+                        <div class="iconic-icons">
+                            <ul>
+                                <li>
+                                    <a href="#" style="font-size:1.2rem;font-weight:700;color:#094067;">
+                                        <span class="hint--left" aria-label="Artistic Designs">
+                                            Art <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 2c5.522 0 10 3.978 10 8.889a5.558 5.558 0 0 1-5.556 5.555h-1.966c-.922 0-1.667.745-1.667 1.667 0 .422.167.811.422 1.1.267.3.434.689.434 1.122C13.667 21.256 12.9 22 12 22 6.478 22 2 17.522 2 12S6.478 2 12 2zM7.5 12a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm9 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM12 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" fill="rgba(9,64,103,1)"/></svg>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" style="font-size:1.2rem;font-weight:700;color:#094067;">
+                                        <span class="hint--right" aria-label="Blog Posts">
+                                            Blog <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32"><path fill="none" d="M0 0h24v24H0z"/><path d="M21 6h-2V5H5v14h14v-1h2v2a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v2zM6 6h2v3H6V6zm9 10a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm0 2a6 6 0 1 1 0-12 6 6 0 0 1 0 12zm0-4a2 2 0 1 1 0-4 2 2 0 0 1 0 4z" fill="rgba(9,64,103,1)"/></svg>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" style="font-size:1.2rem;font-weight:700;color:#094067;">
+                                        <span class="hint--left" aria-label="Articles">
+                                            Articles <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32"><path fill="none" d="M0 0h24v24H0z"/><path d="M11 4h10v2H11V4zm0 4h6v2h-6V8zm0 6h10v2H11v-2zm0 4h6v2h-6v-2zM3 4h6v6H3V4zm2 2v2h2V6H5zm-2 8h6v6H3v-6zm2 2v2h2v-2H5z" fill="rgba(9,64,103,1)"/></svg>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" style="font-size:1.2rem;font-weight:700;color:#094067;">
+                                        <span class="hint--right" aria-label="Personal Portfolio">
+                                            Portfolio <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32"><path fill="none" d="M0 0h24v24H0z"/><path d="M14 21l-2 2-2-2H4.995A1.995 1.995 0 0 1 3 19.005V4.995C3 3.893 3.893 3 4.995 3h14.01C20.107 3 21 3.893 21 4.995v14.01A1.995 1.995 0 0 1 19.005 21H14zm5-2V5H5v14h5.828L12 20.172 13.172 19H19zm-11.028-.82a9.983 9.983 0 0 1-1.751-.978A6.994 6.994 0 0 1 12.102 14c2.4 0 4.517 1.207 5.778 3.047a9.995 9.995 0 0 1-1.724 1.025A4.993 4.993 0 0 0 12.102 16c-1.715 0-3.23.864-4.13 2.18zM12 13a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7zm0-2a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" fill="rgba(9,64,103,1)"/></svg>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" style="font-size:1.2rem;font-weight:700;color:#094067;">
+                                        <span class="hint--left" aria-label="Freelance Work">
+                                            Freelancing <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32"><path fill="none" d="M0 0h24v24H0z"/><path d="M4.256 5.672l3.58 3.577a2.5 2.5 0 0 0 2 3.746L10 13h4l.09.008a.5.5 0 0 1 0 .984L14 14H8.5v2H11v2h2v-2h1c.121 0 .24-.009.357-.025l.173-.031 3.798 3.8A9.959 9.959 0 0 1 12 22C6.477 22 2 17.523 2 12c0-2.4.846-4.604 2.256-6.328zM12 2c5.523 0 10 4.477 10 10 0 2.4-.846 4.604-2.256 6.328l-3.579-3.577a2.5 2.5 0 0 0-2-3.745L14 11h-4l-.09-.008a.5.5 0 0 1 0-.984L10 10h5.5V8H13V6h-2v2h-1c-.121 0-.24.009-.356.025l-.173.031-3.799-3.8A9.959 9.959 0 0 1 12 2z" fill="rgba(9,64,103,1)"/></svg>
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="footer-heading">
+                            <h2>Featured Message</h2>
+                        </div>
+                        <a href="#">
+                            <figure class="imghvr-hinge-down" style="width: 200px;height:200px">
+                                <img src="./portfolio.svg">
+                                <figcaption>
+                                  Learn to design amazing portfolio with awesome UI interactions & latest UX design features.
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </div>
+                </div>
+                <div class="copyright mt-5">
+                    <h5 style="color: #2b2c34;font-weight:500">
+                        made by <span style="color: #6246ea;">shinchu</span>. <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 2c5.52 0 10 4.48 10 10s-4.48 10-10 10S2 17.52 2 12 6.48 2 12 2zm0 5c-2.76 0-5 2.24-5 5s2.24 5 5 5c1.82 0 3.413-.973 4.288-2.428l-1.715-1.028A3 3 0 1 1 12 9c1.093 0 2.05.584 2.574 1.457l1.714-1.03A4.999 4.999 0 0 0 12 7z" fill="rgba(9,64,103,1)"/></svg> 2020 all rights reserved.
+                    </h5>
+                </div>
+            </div>
+        </section>
+        
+        <script src="app.js"></script>
+
+         <!------------------------------------jqueries------------------------------>
+         <script src="./node_modules/sal.js/dist/sal.js"></script>
+         
+
+         <script>
+             sal({
+               threshold: 1,
+               once: false,
+             });
+         </script>
+
+         <!-- UIkit JS -->
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.3/dist/js/uikit.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.3/dist/js/uikit-icons.min.js"></script>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body>
+</html>
